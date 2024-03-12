@@ -5,12 +5,16 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build && gh-pages -d dist"
   },
+  "homepage": "https://sloev.github.io/swarm.buro.earth/",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "uint8-util": "^2.2.4",
     "vite": "^5.1.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
