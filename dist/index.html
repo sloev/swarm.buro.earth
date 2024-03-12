@@ -1,0 +1,35 @@
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"
+  />
+  <script type="module" crossorigin src="/assets/index-CBApbSjP.js"></script>
+</head>
+<body>
+  <h1>Create infohash</h1>
+  <form id="my-form">
+    <label for="name">App name:</label>
+    <input type="text" name="name" id="name" placeholder="example app" />
+    <label for="origin">Origin url:</label>
+    <input
+      type="text"
+      name="origin"
+      id="origin"
+      placeholder="this.example.com"
+    />
+    <button type="submit">Create</button>
+    <br /><br />
+  </form>
+  <div id="output" style="display:none;">
+    <h3>Generated infohash line:</h3>
+    <code id="infohash"></code><i> copied!</i>
+    <br>
+    <br>
+    <b>Procedure:</b>
+    <ol>
+        <li>copy infohash</li>
+        <li>edit <a href="https://github.com/sloev/swarm.buro.earth/edit/main/infohashes.env">infohashes.env</a></li>
+        <li>add <i>infohash line</i> from above to the file</li>
+    </ol>
+  </div>
+</body>

@@ -1,0 +1,16 @@
+{
+  "name": "swarm.buro.earth",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uint8-util": "^2.2.4",
+    "vite": "^5.1.6"
+  }
+}
